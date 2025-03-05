@@ -60,7 +60,6 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: alexx245/taski_backend:latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
